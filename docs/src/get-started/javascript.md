@@ -1,3 +1,3 @@
-# Get started with the python language
+# Javascript
 
 ## Development dependencies

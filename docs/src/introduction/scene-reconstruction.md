@@ -1,3 +1,4 @@
 # Scene reconstruction
 
-Scene reconstruction is the process of analysing video footage of a scene and completely constructing it in a 3 dimensional space.
+Scènereconstructie is het proces van het analyseren van video
+beelden van een scène en het volledig construeren ervan in een 3 dimensionale ruimte.

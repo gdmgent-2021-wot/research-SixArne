@@ -1,3 +1,1 @@
-# History of Computer vision.
-
-## 1900 - 2000
+# 1950 - 2000

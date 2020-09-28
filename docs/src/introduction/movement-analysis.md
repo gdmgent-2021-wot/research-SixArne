@@ -2,30 +2,30 @@
 
 ## Egomotion
 
-Egomotion is defined as the 3D motion of a camera within an environment.
-In the field of computer vision, egomotion refers to estimating a camera's 
-motion relative to a rigid scene.
+Egomotion wordt gedefinieerd als de 3D-beweging van een camera binnen een omgeving.
+Op het gebied van computervisie verwijst egomotion naar het schatten van een camera. 
+beweging ten opzichte van een starre scène.
  
-An example of egomotion estimation would be estimating a car's moving position 
-relative to lines on the road or street signs being observed from the car itself.
-The estimation of egomotion is important in autonomous robot navigation applications. 
+Een voorbeeld van een egomotion inschatting is het inschatten van de bewegende positie van een auto. 
+ten opzichte van de lijnen op de weg of de verkeersborden die vanuit de auto zelf worden geobserveerd.
+Het inschatten van egomotion is belangrijk bij autonome robotnavigatietoepassingen. 
 
 ## Tracking
 
-Tracking is a computer vision technique that will track moving objects or individuals inside a scene.
-This is commonly used in the security business and has 2 forms of tracking:
+Tracking is een computer vision-techniek die bewegende objecten of personen in een scène opspoort.
+Dit wordt vaak gebruikt in de beveiligingsbranche en heeft 2 vormen van tracking:
 
 - Single Object Tracking
 
 - Multiple Object Tracking
 
-Tracking a single object can be relative simple, that is until the object disappears behind another object
-only to reappear a few seconds later.
+Het volgen van een enkel object kan relatief eenvoudig zijn, totdat het object achter een ander object 
+verdwijnt om een paar seconden later weer te verschijnen.
 
 ## Optical flow
 
-Optical flow is a solution for the tracking problem. Originally C.V. techniques only keep track of the
-X and Y value on a screen. But Optical flow wil introduce a third variable to that mix, Time.
+Optische flow is een oplossing voor het trackingprobleem. Oorspronkelijk houden C.V. technieken alleen maar rekening met de
+X- en Y-waarde op een scherm. Maar Optische flow zal een derde variabele aan die mix toevoegen, Tijd.
 
-Optical flow will keep track of an object's position and calculate the movement relative to the time passed.
-This is mostly used for speed checks on the main roads.
+Optische flow houdt de positie van een object bij en berekent de beweging ten opzichte van de verstreken tijd.
+Dit wordt meestal gebruikt voor snelheidscontroles op de hoofdwegen.

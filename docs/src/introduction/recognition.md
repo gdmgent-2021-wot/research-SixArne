@@ -3,33 +3,34 @@
 ## Object recognition
 
 ![alt detection](https://azati.ai/wp-content/uploads/2020/04/object-detection-800x400-1.jpg " ")
+Objectdetectie is een computervisietechniek die wordt gebruikt om objecten in een beeld of video te identificeren.
+Het is een belangrijke output van diepgaande leer- en machineleeralgoritmen.
 
-Object detection is a computer vision technique used to identify objects in an image or video.
-It is a key output of deep learning and machine learning algorithms.
+Het is ook hetgene dat de Tesla-auto's tegenwoordig stuurt, zonder objectdetectie zou de
+auto niet veilig kunnen rijden.
 
-It is also they key program that drives today's Tesla cars, without object detection, the car wouldn't be able to drive safely.
-   
 ## Object Detection
 
-Object detection and object recognition may sound similar, but they are different in execution.
+Objectdetectie en objectherkenning mogen dan wel gelijk klinken, maar ze zijn verschillend in uitvoering.
 
-Object detection will try to look for an instance or more instances in an image. An example of
-this can be the detection of any human face in a class picture.
+Objectdetectie zal proberen te kijken naar een instantie of meer instanties in een beeld. Een voorbeeld van
+dit kan de detectie zijn van elk menselijk gezicht in een klasfoto.
 
-Object recognition on the other hand will identify 1 student from the picture and no others.
+Objectherkenning daarentegen zal 1 leerling uit de foto identificeren en 
+geen andere.
 
 ## Facial recognition
 
-Facial recognition, as mentioned above, will try to identify faces in an image or video footage.
-You can think of a security camera that activates only when a face is identified.
+Gezichtsherkenning, zoals hierboven vermeld, zal proberen gezichten te identificeren in een beeld of video-opname.
+U kunt denken aan een beveiligingscamera die alleen wordt geactiveerd wanneer een gezicht wordt geïdentificeerd.
 
 ## Content based Image retrieval
 
-Content based image retrieval will receive an image as a query and will attempt to perform a lookup to find
-images that contain or are similar to the query image.
+Content based image retrieval zal een afbeelding ontvangen als een query en zal proberen een lookup uit te voeren om
+beelden te vinden die het querybeeld bevatten of er op lijken.
 
 ## Pose estimation
 
-Pose estimation is a technique where the computer will try to identify a person's pose, then the
-program can, for example, estimate where the knee will be based on the arm's position.
-It is important to mention that this technique does not recognise the person itself.
+Pose estimation is een techniek waarbij de computer de houding van een persoon probeert te identificeren, dan kan het programma inschatten waar bijvoorbeeld de 
+knie zal zijn gebaseerd op de positie van de arm.
+Het is belangrijk om te vermelden dat deze techniek de persoon zelf niet herkent.

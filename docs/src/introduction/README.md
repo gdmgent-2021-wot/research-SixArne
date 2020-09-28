@@ -1,30 +1,33 @@
-# Introduction
+# Introductie
 
-## What is computer vision?
+## Wat is computer visie?
 
-Computer vision is the programmatic term that is used for a sub-domain of Artificial Intelligence.
-It is commonly used to identify people or objects in an image or video footage, whether this is live 
-or stored on a hard disk.
+Computervisie is de programmatische term die wordt gebruikt voor een subdomein van Artificial intelligence.
+Het wordt vaak gebruikt om mensen of objecten te identificeren in een beeld of video-opname, of dit nu live 
+is of opgeslagen op een harde schijf.
 
-## How does computer vision work?
+## Hoe werkt computer visie?
 
-Computer vision or C.V. will receive a significant amount of sample data before being put to work,
-the data it receives can be categorized in 2 different sets.
+Computer vision of C.V. zal een aanzienlijke hoeveelheid voorbeeldgegevens ontvangen alvorens aan het werk te gaan,
+de gegevens die het ontvangt kunnen worden gecategoriseerd in 2 verschillende sets.
 
 - Positive images
     
-    The positive images will contain the object for what the computer is looking for. For example:
-    Say that we want to identify a Ferrari we would feed it images where ferrari's are present.
-
-
+    De positieve beelden zullen het object bevatten voor wat de computer zoekt. Bijvoorbeeld:
+    Zeg dat we een Ferrari willen identificeren dan zouden we hem beelden geven waar ferrari's aanwezig zijn.
+    
 - Negative images
 
-    The negative images will NOT contain the object for what the computer is looking for. In the example above we
-    will feed it any car which is not a Ferrari. Commonly programmers will include more negative than positive images. 
+    De negatieve beelden zullen NIET het object bevatten voor wat de 
+    computer zoekt. In het voorbeeld hierboven zullen we enkel auto's
+    geven die geen Ferrari is. Meestal zullen programmeurs meer negatieve 
+    dan positieve beelden geven aangezien het algoritme toch een goed model 
+    kan maken. 
 
 
-The computer will then proceed to generate what is known to be a model, this model is usually in a xml format and
-is will be used by the computer to analyse the image and determine whether there the object or person is present in that frame.
+De computer zal dan overgaan tot het genereren van wat bekend staat als een model, dit model 
+is meestal in een xml formaat en wordt door de computer gebruikt om het beeld 
+te analyseren en te bepalen of daar het object of de persoon aanwezig is.
 
 ## Sources
 

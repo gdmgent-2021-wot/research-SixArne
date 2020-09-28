@@ -49,7 +49,7 @@ module.exports = {
     sidebar: {
       '/introduction/': [
         {
-          title: 'Introduction',
+          title: 'Introductie',
           collapsable: false,
           children: [
               // if you leave an empty string here it will auto generate the sidebar subtitles.
@@ -63,7 +63,7 @@ module.exports = {
       ],
       '/history/': [
         {
-          title: 'History',
+          title: 'Geschiedenis',
           collapsable: false,
           children: [
               ''

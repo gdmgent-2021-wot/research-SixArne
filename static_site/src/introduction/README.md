@@ -29,7 +29,7 @@ De computer zal dan overgaan tot het genereren van wat bekend staat als een mode
 is meestal in een xml formaat en wordt door de computer gebruikt om het beeld 
 te analyseren en te bepalen of daar het object of de persoon aanwezig is.
 
-## Sources
+## Bronnen
 
 - https://www.mathworks.com/solutions/image-video-processing/object-recognition.html
 - https://en.wikipedia.org/wiki/Visual_odometry#Egomotion

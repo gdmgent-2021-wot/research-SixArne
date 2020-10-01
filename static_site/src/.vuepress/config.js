@@ -66,7 +66,8 @@ module.exports = {
           title: 'Geschiedenis',
           collapsable: false,
           children: [
-              ''
+              '',
+              'oorsprong'
           ]
         }
       ],

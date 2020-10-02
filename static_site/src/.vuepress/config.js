@@ -21,7 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
 
-  base: '/',
+  base: '/research-SixArne/',
 
   /**
    * Theme configuration, here is the default theme configuration for VuePress.

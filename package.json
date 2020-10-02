@@ -1,12 +1,19 @@
 {
   "name": "viewpress",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Documentation on computer vision",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "authors": {
+    "name": "Arne Six",
+    "email": "arnesix1@student.artveldehs.be"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": "/viewpress",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
 }

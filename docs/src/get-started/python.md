@@ -1,3 +1,0 @@
-# Python
-
-## Development dependencies

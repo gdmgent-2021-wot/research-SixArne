@@ -82,7 +82,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 ```
 
-Alle afbeeldingen hebben een 28x28 pixel formaat, dit aangezien computer visie het best werkt met een kleinere hoeveelheid pixels, en nog beter met
+Alle afbeeldingen hebben een 28x28 pixel formaat, dit aangezien computer visie het best werkt met een kleinere hoeveelheid pixels en nog beter met
 enkel grijswaarden.
 
 Zoals het je waarschijnlijk al opgevallen is hebben we ook nog de MatPlotLib bibliotheek geïnstalleerd. Dit zorgt ervoor dat we een visuele representatie 
@@ -97,6 +97,8 @@ plt.colorbar()
 plt.grid(False)
 plt.show()
 ```
+
+![Color boot](/color.png)
 
 Kleuren zoals wij het kennen worden meestal gekenmerkt door RGB of rood groen blauw. Computers gebruiken deze waardes echter niet, binnenin gebruiken ze float waardes van 0 tot 1.
 Dus wij moeten deze waardes ook wiskundig omzetten.
@@ -119,6 +121,8 @@ for i in range(25):
     plt.xlabel(class_names[train_labels[i]])
 plt.show()
 ```
+
+![Collection](/collection.png)
 
 ## Het model bouwen
 
@@ -231,6 +235,8 @@ plot_value_array(i, predictions[i],  test_labels)
 plt.show()
 ```
 
+![Result](/result.png)
+
 Nu kunnen we meerdere afbeeldingen plotten en de resultaten direct zien.
 
 ```py
@@ -246,6 +252,8 @@ for i in range(num_images):
 plt.tight_layout()
 plt.show()
 ```
+
+![Result collecion](/result_collection.png)
 
 Ten slotte kunnen we het model gebruiken en kijken of deze de afbeelding herkend.
 

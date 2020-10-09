@@ -1,4 +1,4 @@
-# Introductieeeeeee
+# Introductie
 
 Vroeger was de toekomst van artificiele intelligentie niet zo rooskleurig als die nu is,
 men wilde een computer leren om het menselijk beeld te imiteren en ruimtelijke visie te geven.

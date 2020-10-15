@@ -36,7 +36,7 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'History',
+        text: 'Geschiedenis',
         link: '/history/'
       },
       {
@@ -79,8 +79,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'javascript',
-            'python',
+            'teachable-machines',
+            'tensorflow',
           ]
         }
       ]

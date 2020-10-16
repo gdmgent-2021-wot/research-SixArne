@@ -47,7 +47,7 @@ aanpassing geeft verschillende resultaten.
 
 ## Resultaat
 
-Na dat het model getrained is kunnen we het onmiddelijk uittesten dankzij google. 
+Na dat het model getraind is kunnen we het onmiddellijk uittesten dankzij google. 
 
 ![red results](/red_result.png)
 
@@ -56,3 +56,12 @@ Na dat het model getrained is kunnen we het onmiddelijk uittesten dankzij google
 ![blue results](/blue_result.png)
 
 - Wanneer we de blauwe joycon voor de camera houden zien we dat het model de voorkeur geeft aan zijn 1ste object: de blauwe joycon.
+
+## Andere functies
+
+Teachable machines heeft verder nog de mogelijkheid om audio en posities te herkennen. Google is ondertussen druk bezig met nieuwe
+models te maken voor de consument.
+
+Ten slotte kunnen we het model ook exporteren voor tensorflow en daar gebruiken.
+Dus als jullie in de toekomst makkelijk een model willen trainen voor voorwerpen te herkennen: gebruik google teachable machine.
+

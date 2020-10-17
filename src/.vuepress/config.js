@@ -40,11 +40,11 @@ module.exports = {
         link: '/history/'
       },
       {
-        text: 'Introduction',
+        text: 'Introductie',
         link: '/introduction/'
       },
       {
-        text: 'Get Started',
+        text: 'Start nu',
         link: '/get-started/'
       }
     ],

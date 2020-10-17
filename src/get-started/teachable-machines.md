@@ -13,7 +13,7 @@ Eerst zal de website vragen om verschillende afbeeldingen te uploaden van de twe
 - Hoe minder kleur hoe sneller het trainings process.
 - Afbeeldingen zullen gecropt worden.
 
-Hier zullen we gebruik maken van 2 objecten. Een blauw switch controller en een rode switch controller.
+Hier zullen we gebruik maken van 2 objecten. Een blauwe switch controller en een rode switch controller.
 
 ![switch](/switch.jpg)
 

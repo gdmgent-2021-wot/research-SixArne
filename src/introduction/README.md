@@ -1,32 +1,32 @@
 # Introductie
 
-## Wat is computer visie?
+## Wat is computervisie?
 
-Computervisie is de programmatische term die wordt gebruikt voor een subdomein van Artificial intelligence.
+Computervisie is de programmatische term die wordt gebruikt voor een subdomein van artificiële intelligentie.
 Het wordt vaak gebruikt om mensen of objecten te identificeren in een beeld of video-opname, of dit nu live 
 is of opgeslagen op een harde schijf.
 
-## Hoe werkt computer visie?
+## Hoe werkt computervisie?
 
-Computer vision of C.V. zal een aanzienlijke hoeveelheid voorbeeldgegevens ontvangen alvorens aan het werk te gaan,
+Computervisie of C.V. zal een aanzienlijke hoeveelheid voorbeeldgegevens ontvangen alvorens aan het werk te gaan,
 de gegevens die het ontvangt kunnen worden gecategoriseerd in 2 verschillende sets.
 
 - Positive images
     
-    De positieve beelden zullen het object bevatten voor wat de computer zoekt. Bijvoorbeeld:
-    Zeg dat we een Ferrari willen identificeren dan zouden we hem beelden geven waar ferrari's aanwezig zijn.
+    De positieve beelden zullen het object bevatten dat de computer zoekt. Bijvoorbeeld:
+    Zeg dat we een Ferrari willen identificeren dan zouden we hem beelden geven waar Ferrari's aanwezig zijn.
     
 - Negative images
 
-    De negatieve beelden zullen NIET het object bevatten voor wat de 
+    De negatieve beelden zullen NIET het object bevatten dat de 
     computer zoekt. In het voorbeeld hierboven zullen we enkel auto's
-    geven die geen Ferrari is. Meestal zullen programmeurs meer negatieve 
+    die niet van het merk Ferrari zijn. Meestal zullen programmeurs meer negatieve 
     dan positieve beelden geven aangezien het algoritme toch een goed model 
     kan maken. 
 
 
 De computer zal dan overgaan tot het genereren van wat bekend staat als een model, dit model 
-is meestal in een xml formaat en wordt door de computer gebruikt om het beeld 
+is meestal in een xml-formaat en wordt door de computer gebruikt om het beeld 
 te analyseren en te bepalen of daar het object of de persoon aanwezig is.
 
 ## Bronnen

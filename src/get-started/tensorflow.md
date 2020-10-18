@@ -7,21 +7,21 @@
 - Numpy
 - MatplotLib
 
-In deze getting-started guide zullen we het basisproject namaken van de officiële tensorflow website. In dit project gaan
+In deze getting-started guide zullen we het basisproject imiteren van de officiële tensorflow website. In dit project gaan
 we een model trainen met data en vervolgens zal het model kunnen raden of het getoonde voorwerp herkend wordt of niet.
 
-Alle acties die ik hieronder zal bespreken zijn gemaakt in Google Colab en kan iedereen zelf uitproberen.
+Alle acties die ik hieronder zal bespreken zijn gemaakt in Google colab en kan iedereen zelf uitproberen.
 [Google colab link](https://colab.research.google.com/drive/1dJa7sRhJjVnsUQWswBncHxmMXvcHw86A?usp=sharing).
 
 # Google colab
 
-Google colab is een goede manier om je bezig te houden met computer visie and andere subdomeinen van Artificiële intelligentie.
-Het laat ons toe om een externe computer te reserveren die de Python-taal heeft staan en rechtstreeks code op uit te voeren.
+Google colab is een goede manier om je bezig te houden met computervisie en andere subdomeinen van artificiële intelligentie.
+Het laat ons toe om een externe computer te reserveren die de Python-taal heeft staan en er rechtstreeks code op uit te voeren.
 Zo krijgen we voor ons project een computer met 100 GB HDD en 12 GB RAM.
 
 ## Hello world
 
-De eerste taak als een programmeur is kijken of je project correct werkt en alle bibliotheken geïmporteerd zijn. Dit doen we door de volgende code
+Je eerste taak als een programmeur is kijken of je project correct werkt en alle bibliotheken geïmporteerd zijn. Dit doen we door de volgende code
 in een code-blok te schrijven in ons document.
 
 ```py
@@ -31,10 +31,10 @@ print(tf.__version__)
 # 2.3.0
 ```
 
-Allereerst importeren we Tensorflow als tf voor de klasse aanroeping korter te maken. vervolgens printen we het versienummer.
-Als dit een nummer teruggeeft dan weten we dan het project correct werkt.
+Allereerst importeren we Tensorflow als tf om de klasse aanroeping korter te maken. vervolgens printen we het versienummer.
+Als dit een nummer teruggeeft dan weten we dat het project correct werkt.
 
-We kunnen direct de andere hulp bibliotheken importeren en kijken of deze werken.
+We kunnen direct de andere hulpbibliotheken importeren en kijken of deze werken.
 
 ```py
 # Main library
@@ -51,8 +51,8 @@ print(tf.__version__)
 
 ## Keras
 
-In deze tutorial gaan we gebruik maken van Keras. Keras is een API die het ons makkelijker maakt voor modellen te trainen en in te stellen,
-vroeger moest je Keras apart installeren, maar tegenwoordig zit deze samen met Tensorflow.
+In deze tutorial gaan we gebruik maken van Keras. Keras is een API die het ons makkelijker maakt om modellen te trainen en in te stellen.
+Vroeger moest je Keras apart installeren, maar tegenwoordig zit dit samen met Tensorflow.
 
 ```py
 import tensorflow as tf
@@ -61,11 +61,11 @@ from tensorflow import keras
 
 ## Dataset
 
-Zoals ieder machine learning algoritme heb je een dataset nodig om mee te starten. Deze dataset bevat meerdere afbeeldingen waarop ons object te vinden is.
+Zoals ieder Machine-learning algoritme heb je een dataset nodig om mee te starten. Deze dataset bevat meerdere afbeeldingen waarop ons object te vinden is.
 voor dit voorbeeld zullen we gebruik maken van de "Fashion MNIST dataset". Deze dataset bevat 70.000 afbeeldingen van kledingstukken die we in
 10 rubrieken kunnen plaatsen.
 
-Gelukkig voor ons zit deze al in de Tensorflow bibliotheek.
+Gelukkig voor ons zit deze dataset al in de Tensorflow bibliotheek.
 
 ```py
 fashion_mnist = keras.datasets.fashion_mnist
@@ -82,7 +82,7 @@ class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 ```
 
-Alle afbeeldingen hebben een 28x28 pixel formaat, dit aangezien computer visie het best werkt met een kleinere hoeveelheid pixels en nog beter met
+Alle afbeeldingen hebben een 28x28 pixel formaat, dit aangezien computervisie het best werkt met een kleinere hoeveelheid pixels en nog beter met
 enkel grijswaarden.
 
 Zoals het je waarschijnlijk al opgevallen is hebben we ook nog de MatPlotLib bibliotheek geïnstalleerd. Dit zorgt ervoor dat we een visuele representatie 
@@ -100,8 +100,8 @@ plt.show()
 
 ![Color boot](/color.png)
 
-Kleuren zoals wij het kennen worden meestal gekenmerkt door RGB of rood groen blauw. Computers gebruiken deze waardes echter niet, binnenin gebruiken ze float waardes van 0 tot 1.
-Dus wij moeten deze waardes ook wiskundig omzetten.
+Kleuren zoals wij ze kennen worden meestal gekenmerkt door RGB of rood groen blauw. Computers gebruiken deze waarden echter niet, binnenin gebruiken ze float waarden van 0 tot 1.
+Dus wij moeten deze waarden ook wiskundig omzetten.
 
 ```py
 train_images = train_images / 255.0
@@ -139,7 +139,7 @@ model = keras.Sequential([
 ])
 ```
 
-De eerste chain zal ons image-array transformeren van 2D naar 1D. De eerste Dense methode zal ervoor zorgen
+De eerste chain zal ons image-array transformeren van 2D naar 1D. De eerste "Dense" methode zal ervoor zorgen
 dat het neuraal netwerk 128 neuronen ter beschikking heeft. Deze monden dan uit op 10 resultaten.
 
 ```py
@@ -149,7 +149,7 @@ model.compile(optimizer='adam',
 ```
 
 Vervolgens gaan we het model compileren. De loss-functie zorgt voor de nauwkeurigheid van ons model, de optimizer bepaalt hoe het model
-zich zal aanpassen op de gekregen data. En de metrics zal voor ons het training systeem volgen en de nauwkeurigheid loggen.
+zich zal aanpassen aan de gekregen data. En de metrics zal voor ons het training systeem volgen en de nauwkeurigheid loggen.
 
 ```py
 model.fit(train_images, train_labels, epochs=10)
@@ -167,7 +167,7 @@ test_loss, test_acc = model.evaluate(test_images,  test_labels, verbose=2)
 print('\nTest accuracy:', test_acc)
 ```
 
-Nu kunnen we beginnen met het echte werk, we geven het model een afbeelding en deze geeft dan een resultaat terug.
+Nu kunnen we beginnen met het echte werk, we geven het model een afbeelding en dan krijg je een resultaat terug.
 
 ```py
 probability_model = tf.keras.Sequential([model, 
@@ -177,14 +177,14 @@ predictions = probability_model.predict(test_images)
 print(predictions[0])
 ```
 
-Hier zien we dat we een array terugkrijgen met verschillende waarden. De waarde die het grootst is is wat de computer denkt dat de afbeelding voorstelt.
+Hier zien we dat we een array terugkrijgen met verschillende waarden. De waarde die het grootst is komt overeen met wat de computer denkt dat de afbeelding voorstelt.
 
 ```py
 print(np.argmax(predictions[0]))
 print(test_labels[0])
 ```
 
-Als we de grootste waarde printen en deze dan vergelijken met het antwoord dan zien we dat de computer het correct geraden heeft.
+Als we de grootste waarde printen en deze dan vergelijken met het antwoord dan, zien we dat de computer het correct geraden heeft.
 
 ## Visuele presentatie
 
@@ -255,7 +255,9 @@ plt.show()
 
 ![Result collecion](/result_collection.png)
 
-Ten slotte kunnen we het model gebruiken en kijken of deze de afbeelding herkend.
+Nu kunnen we even testen of de code werkt.
+
+Ten slotte kunnen we het model gebruiken en kijken of deze de afbeelding herkent.
 
 ```py
 img = test_images[1]
